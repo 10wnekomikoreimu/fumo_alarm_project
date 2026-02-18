@@ -28,9 +28,13 @@ Simply using Yukuri's voice as an alarm sound is a little boring. So I added an 
 
 |python|3.12.12|
 |:---|:---|
-|pillow|12.1.0|
-|playsound|1.2.2|
+|pillow|12.1.1|
+|playsound|1.3.0|
 |pystray|0.19.5|
+
+为了方便正常运行，playsound.py中第55行被修改过。
+
+Line 55 in playsound.py has been modified to ensure successful running.
 
 ## 参考 Reference
 

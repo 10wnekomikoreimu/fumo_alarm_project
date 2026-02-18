@@ -16,7 +16,7 @@ class MainCtl():
 
     def check_example(self):
         if not os.path.exists("./sound/example.mp3"):
-            print("Copy example.mp3 from ./example")
+            #print("Copy example.mp3 from ./example")
             shutil.copy("./example/example.mp3", "./sound/example.mp3")
     
     #check config 
